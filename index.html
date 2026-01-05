@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BloopTalk ✨</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1> BloopTalk's Voice Magic 🎵</h1>
+    <textarea id="textInput" placeholder="Type your magical words here..."></textarea>
+    <div class="controls">
+      <button id="playBtn">🔊 Play</button>
+      <button id="pauseBtn">⏸ Pause/Resume</button>
+      <select id="voiceSelect"></select>
+      <div class="sliders">
+        <label>Rate: <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1"></label>
+        <label>Pitch: <input type="range" id="pitch" min="0" max="2" step="0.1" value="1"></label>
+      </div>
+    </div>
+    <div class="voice-icons" id="voiceIcons"></div>
+  </div>
+  <div class="starfield" id="starfield"></div>
+  <script src="index.js"></script>
+</body>
+</html>
